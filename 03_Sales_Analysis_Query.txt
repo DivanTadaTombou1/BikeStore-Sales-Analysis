@@ -1,4 +1,5 @@
 ```sql
+
 SELECT 
 	ord.Order_id,
 	CONCAT(cus.first_name, ' ', cus.last_name) AS 'Customers',
